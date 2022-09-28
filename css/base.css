@@ -1,0 +1,56 @@
+body{
+    background: rgb(233, 233, 233);
+    font-family: sans-serif;
+    color: rgb(54, 54, 54);
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+h2 {
+    margin: 0 0 .5rem;
+}
+.intro {
+    max-width: 50%;
+    margin: 0 auto;
+}
+.flag {
+    width: 525px;
+    height: 350px;
+    background: #FFF;
+    margin: 0 auto;
+}
+.section__left img {
+    width: 525px;
+    height: 350px;
+}
+
+section {
+    padding: 1.2rem 0;
+}
+section header {
+    padding: 1rem;
+}
+section main{
+    display: flex;
+}
+.section__left,
+.section__right {
+    width: 50%;
+    padding: 3rem 0;
+    text-align: center;
+}
+.section__left {
+    background: rgb(68, 68, 68)
+}
+.section__right {
+    background: rgb(39, 39, 39);
+}
+
+.infos_supp span {
+    font-weight: bold;
+}

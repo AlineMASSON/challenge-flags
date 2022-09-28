@@ -1,0 +1,254 @@
+/* === couleur globale === */
+
+    /* 
+    bleu : #005BBB
+    jaune : #FFD500
+    vert : #009246
+    blanc : #000000
+    rouge : #CE2B37
+
+    */
+
+.bleu {
+    background-color: #005BBB;
+}
+
+.jaune {
+    background-color: #FFD500;
+}
+
+.vert {
+    background-color: #009246;
+}
+
+.blanc {
+    background-color: white;
+}
+
+.rouge {
+    background-color: #CE2B37;
+}
+
+
+/* Drapeau de l'Ukraine */
+.ukraine {
+}
+
+.ukraine .bleu {
+    height: 50%;
+}
+
+.ukraine .jaune {
+    height: 50%;
+}
+
+/* -------------------- */
+
+/* Drapeau de l'Italie */
+.italie {
+    display: flex;
+    flex-direction: row;
+}
+
+.italie .vert,
+.italie .blanc,
+.italie .rouge {
+    width: calc(100%/3);
+}
+
+/* -------------------- */
+
+
+/* Drapeau du Vietnam */
+.vietnam {
+    /*
+    rouge : #DA251D
+    */
+    background-color: #DA251D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -------------------- */
+
+/* Drapeau du Bénin */
+.benin {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
+
+.benin .vert {
+    width: 40%;
+    height: 100%;
+}
+
+.benin .rouge {
+    background-color: #E8112D;
+}
+
+.benin .jaune,
+.benin .rouge {
+    width: 60%;
+    height: 50%;
+}
+
+/* -------------------- */
+
+/* Drapeau de la Lettonie */
+.lettonie {
+    display: flex;
+    background-color: #9E3039;
+
+}
+
+.lettonie .blanc {
+    height: 20%;
+    width: 100%;
+    align-self: center;
+}
+
+/* -------------------- */
+
+/* Drapeau du  Pérou */
+.perou {
+    display: flex;
+    justify-content: space-between;
+}
+
+.perou .rouge {
+    background-color: #D91023;
+    width: calc(100% / 3);
+}
+
+/* -------------------- */
+
+/* Drapeau du Sénégal */
+.senegal {
+    display: flex;
+
+}
+
+.senegal .vert,
+.senegal .jaune,
+.senegal .rouge {
+    width: calc(100%/3);
+    display: flex;
+    justify-content:center ;
+}
+
+.senegal img {
+    align-self: center;
+}
+
+/* -------------------- */
+
+/* Drapeau du Costa Rica */
+
+.costa_rica .bleu,
+.costa_rica .blanc {
+    height: calc(100% / 6);
+}
+
+.costa_rica .rouge {
+    height: calc(100% / 3);
+    background-color: #CE1126;
+}
+
+.costa_rica .bleu {
+    background-color: #002B7F;
+}
+
+/* -------------------- */
+
+/* Drapeau du Suriname */
+
+.suriname .vert {
+    height: 20%;
+}
+
+.suriname .blanc {
+    height: 10%;
+}
+
+.suriname .rouge {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* -------------------- */
+
+/* Drapeau du Chili */
+.chili {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.chili .bleu {
+    height: 50%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chili .rouge {
+    height: 50%;
+}
+
+/* -------------------- */
+
+/* Drapeau du Togo */
+
+.togo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.togo .rouge {
+    height: 60%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.togo .vert,
+.togo .jaune {
+    height: 20%;
+    width: 100%;
+}
+/* -------------------- */
+
+/* Drapeau de la Grèce */
+
+.grece {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.grece .rayure {
+    height: calc(100% / 9);
+}
+
+.grece .croix {
+    height: calc(5 * (100% / 9));
+    width: 35%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content:space-between ;
+    background-color: white;
+}
+
+.grece .croix .bleu {
+    height: 40%;
+    width: 40%;
+}
